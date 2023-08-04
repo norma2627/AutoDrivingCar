@@ -25,14 +25,13 @@ void setup(){
   motor2.run(RELEASE);
   delay(2000);
 
-  //正面を向く
-  myservo.write(90);
-  delay(3000);
+  ///正面を向く
+  myservo.write(50);
 
 }
 
 void loop(){
- 
+
   checkForward();
   moveForward(3000);
 
@@ -136,7 +135,7 @@ void turnLeft(int n){
 void checkForward(){
 
   //正面を向く
-  myservo.write(90);
+  myservo.write(50);
   delay(300);
   Serial.print("Forward:");
   float distance = measure();
@@ -155,7 +154,7 @@ void avoid(){
   //停止後、後方へ移動
   Serial.print("Avoid:");
   moveStop(3000);
-  moveBackward(3000);
+  moveBackward(5000);
 
 }
 
