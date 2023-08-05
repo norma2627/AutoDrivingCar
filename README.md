@@ -5,13 +5,13 @@ Arduinoを使用し自動運転のロボットカーを作成しました
 ![ロボットカー](./images/) 
 
 ## 材料
-使用したもの 
-※今回は作成期間が限られていたので、手に入りやすい材料で作成しました 
-もっと良い材料があるかもしれません 
+使用したもの<br/>
+※今回は作成期間が限られていたので、手に入りやすい材料で作成しました <br/>
+もっと良い材料があるかもしれません <br/>
 
 ### Arduino mega
-Arduino UnoだとモータードライバがGpioピンを全て使用してしまうので、Arduino megaを使用 
-[Arduino Mega](https://amzn.asia/d/7uSjvky) 
+Arduino UnoだとモータードライバがGpioピンを全て使用してしまうので、Arduino megaを使用<br/>
+[Arduino Mega](https://amzn.asia/d/7uSjvky) <br/>
 
 ### モータードライバ
 Arduinoの機能拡張シールド 
