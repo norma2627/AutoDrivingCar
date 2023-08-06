@@ -69,9 +69,7 @@ Arduinoの入門セットにも入ってる <br/>
 ※部品同士を連結させるための部品が手に入らなかったので、輪ゴムや結束バンドで代用しました 
 
 
-### 
-
-## プログラム
+### [コード](https://github.com/norma2627/AutoDrivingCar/blob/main/autodriving/autodriving.ino)<br/>
 
 ### 使用したライブラリ
 インストール方法
@@ -84,8 +82,7 @@ Arduinoの入門セットにも入ってる <br/>
 - Adafruit Moter Sheild library 
 
 ### 障害物を検知する仕組み
-超音波センサーを使用し障害物との距離を測ることで、車体をコントロールする
-[コード](https://github.com/norma2627/AutoDrivingCar/blob/main/autodriving/autodriving.ino)<br/>
+超音波センサーを使用し障害物との距離を測ることで、車体をコントロールする<br/>
 
 距離の測り方<br/>
 
